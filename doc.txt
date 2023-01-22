@@ -9,9 +9,31 @@ Linear Search
 	-> timeComplexity  best=O(1) Worst=O(n)
 
 
+THESE ALGORITHMS NEED TO BE SORTED FIRST BEFORE USING IT
+
+
 Binary Search
 	-> Sort it first and use this algorithm
 	-> middle = (left+right)/2
 	-> Divide and conquer algorithm
 	-> Time complexity O(log n)
 	-> Space complexity O(log n) recursive O(1) iterative, recursive is best for this alogirthm.
+
+
+Ternary Search
+	-> partitionSize = (right-left)/3
+	-> mid1 = left+partitionSize
+	-> mid2 = right-partitionSize
+	-> Time Complexity: O(log3n)
+	-> Binary Search is faster than ternary Search
+
+
+Jump Search
+	-> improvement of Linear Search 
+	-> blockSize = SqaureRoot(n)
+	-> Divide into blocks and apply linear Search
+	-> Time Complexity O(SqaureRoot(n))
+
+
+Exponential Search
+	-> Time Complexity O(log i)= Worst case
