@@ -1,0 +1,9 @@
+Linear Search
+Binary Search
+Ternary Search
+Jump Search 
+Exponential Search
+
+
+Linear Search 
+	-> timeComplexity  best=O(1) Worst=O(n)
