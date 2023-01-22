@@ -7,3 +7,11 @@ Exponential Search
 
 Linear Search 
 	-> timeComplexity  best=O(1) Worst=O(n)
+
+
+Binary Search
+	-> Sort it first and use this algorithm
+	-> middle = (left+right)/2
+	-> Divide and conquer algorithm
+	-> Time complexity O(log n)
+	-> Space complexity O(log n) recursive O(1) iterative, recursive is best for this alogirthm.
